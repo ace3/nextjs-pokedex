@@ -1,6 +1,6 @@
+import Image from 'next/image'
 import Layout from '../components/Layout'
 import Link from 'next/link'
-
 export default function Home({ pokemon }) {
   return (
     <Layout title="NextJS Pokedex">
@@ -9,14 +9,14 @@ export default function Home({ pokemon }) {
         {pokemon.map((item, index) => {
           return (
             <li key={index}>
-              <img
-                className="mr-3"
+              <Image
                 src={item.image}
                 alt={item.name}
+                layout="responsive"
                 width={475}
                 height={475}
               />
-              <Link href={`/pokemon?id=${index + 1}`}>
+              <Link className="flex" href={`/pokemonV10?id=${index + 1}`}>
                 <a className="border p-4 border-gray my-2 capitalize flex items-center text-lg bg-gray-200 rounded-md">
                   <span className="mr-2 font-bold">{index + 1}</span>{' '}
                   {item.name}
