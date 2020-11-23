@@ -5,7 +5,7 @@
 ### Vercel
 [Site](https://nextjs-pokedex-psi.vercel.app/)
 
-[GTmetrix](https://gtmetrix.com/reports/nextjs-pokedex-psi.vercel.app/f83aIgM9/)
+[GTmetrix](https://gtmetrix.com/reports/nextjs-pokedex-psi.vercel.app/0eufLMXQ/)
 
 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fnextjs-pokedex-psi.vercel.app%2F&tab=mobile)
 
